@@ -9,6 +9,8 @@ int main(){
 			y=1;
 		}
 		x[i] = y;
+	}
+	for(int i=0;i<10;i++){
 		printf("X[%d] = %d\n",i,x[i]);
 	}
 	return 0;
